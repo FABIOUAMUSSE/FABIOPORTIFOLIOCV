@@ -1,0 +1,316 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'josefin sans',sans-serif;
+
+}
+.background{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+nav h2{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+span{
+    color: #f9004d;
+    text-decoration: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 4px 16px;
+    list-style-type: none;
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2); 
+} 
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration:none ;
+    font-weight: bold;
+    padding: 4px 16px;
+    border-radius: 20px;
+    transition: transform .2s;
+
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.main{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translateY(-50);
+}
+
+h4{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+
+}
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+
+
+
+/*=============background-color-sobre============*/
+
+.backgroud-color-sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+.backgroud-color-sobre img{
+    width: 400px;
+    height: auto;
+    border-radius: 4%;
+    box-shadow: 4px 4px 4px  #c20c0c,4px 4px 4px;
+    
+}
+
+.text-sobre{
+    width: 550px;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 30px;
+
+
+}
+
+
+
+.main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 20px;
+    padding-left: 10px;
+
+
+}
+.text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-sobre h5{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: normal;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.text-sobre p{
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-size: 12px;
+    margin-bottom: 45px;
+}
+
+
+
+
+    /*==========conteiner-Habilidades===========*/
+    
+
+.conteiner-Habilidades{
+    background-color: #101010;
+    width: 100%;
+    padding: 50px 0x;
+    height: auto;
+}
+.conteiner-Habilidades h2{
+     color: #fff;
+     font-size: 50px;
+     width: auto;
+     margin: 30px auto;
+     text-align: center;
+     font-weight: bold;
+     padding-top: 6%;
+     padding-bottom: 4%;
+}
+.conteiner-Habilidades p{
+    text-align: center;
+    font-family: sans-serif;
+    color: #f9004d;
+    margin-top: 200x;
+    font-size: 20px;
+}
+.card h3{
+    color: black;
+}
+.C-card{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 20% 6%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+   
+
+} 
+.card{
+    background-color:#fff;
+    padding: 4px;
+    box-shadow: 4px 4px 4px #c20c0c, 4px 4px 4px;
+    margin-top: 25px;
+    margin-bottom: 25x;
+    border-radius: 20px;
+    
+
+    
+}
+.card img{
+    width: 50px;
+    height: auto;
+  
+}
+.C-card-2{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition-duration:  .4s ; 
+
+}
+/*==========Meus-filmes===========*/
+
+.Meus-filmes{
+    background-color: #101010;
+    width: 100%;
+    padding: 50px 0x;
+    height: auto;
+    padding-bottom: 35px;
+}
+.Meus-filmes h2 {
+    color: #fff;
+    font-size: 60x;
+    width: 1100x;
+    margin: 30px auto;
+    font-weight: bold;
+    padding-top: 12%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.C-card-3{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2%;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding-bottom: 35px;
+}
+.C-card-3 img {
+    padding-top: 40px;
+    width: 100px;
+    
+}
+
+
+
+ /*==========conteiner-servicos===========*/
+    
+ .conteiner-servicos{
+     background-color: #101010;
+     width: 100%;
+     padding: 50px 0x;
+     height: auto;
+     padding-bottom: 35px;
+ }
+
+
+.conteiner-servicos h2{
+    color: #fff;
+    font-size: 60x;
+    width: 1100x;
+    margin: 30px auto;
+    font-weight: bold;
+    padding-top: 12%;
+    text-align: center;
+
+}
+
+.conteiner-servicos p{
+    text-align: center;
+    font-family: sans-serif;
+    color: #f9004d;
+    margin-top: 250x;
+}
+.conteiner-contactos{
+    background-color: rgb(11, 10, 10);
+    width: 100%;
+    padding: 50px 0x;
+    height: auto;
+    padding-bottom: 35px;
+
+}
+
+.fieldset{
+    padding-top: 20px;
+    margin: 20px;
+}
+.fieldset b{
+    color: blue;
+}
+
+  
+
+
+
+
+
